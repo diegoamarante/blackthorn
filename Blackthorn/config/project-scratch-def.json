@@ -1,10 +1,12 @@
 {
-  "orgName": "diegoamarante Company",
+  "orgName": "Diego Amarante",
   "edition": "Developer",
   "features": [],
   "settings": {
     "orgPreferenceSettings": {
       "s1DesktopEnabled": true
     }
-  }
+  },
+  "language": "en_US",
+  "country": "US"
 }
