@@ -7,8 +7,9 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>Events</label>
+    <label>Blackthorn Events</label>
     <navType>Standard</navType>
+    <tabs>Event__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Events_UtilityBar</utilityBar>
 </CustomApplication>
