@@ -10,5 +10,6 @@
     <label>Blackthorn Events</label>
     <navType>Standard</navType>
     <tabs>Event__c</tabs>
+    <tabs>Attendee__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
