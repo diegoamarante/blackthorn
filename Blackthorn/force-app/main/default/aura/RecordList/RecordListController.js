@@ -1,5 +1,6 @@
 ({
-    init: function (cmp, event, helper) {
+    init: function (component, event, helper) {
+        var recordId = component.get('v.recordId');
         var actions = [
             { label: 'Show details', name: 'show_details' },
             { label: 'Delete', name: 'delete' }
@@ -12,7 +13,7 @@
         };
 
 
-        cmp.set('v.columns', [
+        component.set('v.columns', [
             { label: 'Name', fieldName: 'name', type: 'text' },
             { label: 'Author', fieldName: 'author', type: 'text' },
             { label: 'Publishing State', fieldName: 'published', type: 'text' },
@@ -21,7 +22,7 @@
 
     },
 
-    handleRowAction: function (cmp, event, helper) {
+    handleRowAction: function (component, event, helper) {
         var action = event.getParam('action');
         var row = event.getParam('row');
 
