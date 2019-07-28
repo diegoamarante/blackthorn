@@ -4,12 +4,12 @@
             { label: 'Show details', name: 'show_details' },
             { label: 'Delete', name: 'delete' }
         ],
-
-        /*fetchData = {
+        
+        fetchData = {
             name : 'company.companyName',
             author: 'name.findName',
             published : 'address.state'
-        };*/
+        };
 
 
         cmp.set('v.columns', [

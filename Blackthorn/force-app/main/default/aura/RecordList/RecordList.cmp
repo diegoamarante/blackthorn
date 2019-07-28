@@ -1,4 +1,4 @@
-<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global" controller="RelatedListController" >
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global" controller="RecordListController" >
 
     <!-- attributes -->
     <aura:attribute name="recordId" type="Id" />
