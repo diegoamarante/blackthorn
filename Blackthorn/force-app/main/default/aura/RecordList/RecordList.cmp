@@ -23,6 +23,7 @@
             columns="{! v.columns }"
             data="{! v.data }"
             keyField="id"
+            hideCheckboxColumn="true"
             onrowaction="{! c.handleRowAction }"/>
     </div>
 </aura:component>	
