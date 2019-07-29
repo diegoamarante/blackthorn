@@ -1,8 +1,8 @@
 [
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app",
+        "/Users/diegoamarante/Documents/blackthorn/force-app",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app",
             "isDirectory": true,
             "size": 96,
             "modifiedTime": 1563579119917,
@@ -15,9 +15,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main",
             "isDirectory": true,
             "size": 96,
             "modifiedTime": 1563579119918,
@@ -30,9 +30,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default",
             "isDirectory": true,
             "size": 544,
             "modifiedTime": 1564318432421,
@@ -45,9 +45,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/appMenus",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/appMenus",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/appMenus",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/appMenus",
             "isDirectory": true,
             "size": 64,
             "modifiedTime": 1563967574125,
@@ -60,9 +60,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/applications",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/applications",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/applications",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/applications",
             "isDirectory": true,
             "size": 96,
             "modifiedTime": 1563751459663,
@@ -75,9 +75,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/applications/Events.app-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/applications/Events.app-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/applications/Events.app-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/applications/Events.app-meta.xml",
             "isDirectory": false,
             "size": 587,
             "modifiedTime": 1564051925153,
@@ -90,9 +90,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura",
             "isDirectory": true,
             "size": 96,
             "modifiedTime": 1564316664370,
@@ -105,9 +105,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList",
             "isDirectory": true,
             "size": 352,
             "modifiedTime": 1564316664374,
@@ -120,9 +120,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.auradoc",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.auradoc",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.auradoc",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.auradoc",
             "isDirectory": false,
             "size": 209,
             "modifiedTime": 1564316664374,
@@ -135,23 +135,23 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.cmp",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.cmp",
         {
-            "state": "u",
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.cmp",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1092,
             "modifiedTime": 1564398444491,
             "changeTime": 1564398444491,
-            "isWorkspace": false,
-            "contentHash": "82a3fb762430212549e342ed8d1a6d3b83d91506"
+            "contentHash": "82a3fb762430212549e342ed8d1a6d3b83d91506",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.cmp-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.cmp-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.cmp-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.cmp-meta.xml",
             "isDirectory": false,
             "size": 242,
             "modifiedTime": 1564316664371,
@@ -164,9 +164,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.css",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.css",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.css",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.css",
             "isDirectory": false,
             "size": 10,
             "modifiedTime": 1564316664373,
@@ -179,9 +179,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.design",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.design",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.design",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.design",
             "isDirectory": false,
             "size": 40,
             "modifiedTime": 1564316664374,
@@ -194,9 +194,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.svg",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.svg",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordList.svg",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordList.svg",
             "isDirectory": false,
             "size": 661,
             "modifiedTime": 1564316664373,
@@ -209,9 +209,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordListController.js",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordListController.js",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordListController.js",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordListController.js",
             "isDirectory": false,
             "size": 2270,
             "modifiedTime": 1564398317102,
@@ -223,9 +223,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordListHelper.js",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordListHelper.js",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordListHelper.js",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordListHelper.js",
             "isDirectory": false,
             "size": 11,
             "modifiedTime": 1564397365539,
@@ -237,9 +237,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordListRenderer.js",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordListRenderer.js",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/aura/RecordList/RecordListRenderer.js",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/aura/RecordList/RecordListRenderer.js",
             "isDirectory": false,
             "size": 50,
             "modifiedTime": 1564316664373,
@@ -252,9 +252,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/classes",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/classes",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes",
             "isDirectory": true,
             "size": 128,
             "modifiedTime": 1564318552092,
@@ -267,9 +267,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/classes/RecordListController.cls",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/RecordListController.cls",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/classes/RecordListController.cls",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/RecordListController.cls",
             "isDirectory": false,
             "size": 509,
             "modifiedTime": 1564397704175,
@@ -281,9 +281,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/classes/RecordListController.cls-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/RecordListController.cls-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/classes/RecordListController.cls-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/RecordListController.cls-meta.xml",
             "isDirectory": false,
             "size": 198,
             "modifiedTime": 1564318552092,
@@ -296,9 +296,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/contentassets",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/contentassets",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/contentassets",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/contentassets",
             "isDirectory": true,
             "size": 64,
             "modifiedTime": 1563579119918,
@@ -311,9 +311,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/flexipages",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/flexipages",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/flexipages",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/flexipages",
             "isDirectory": true,
             "size": 160,
             "modifiedTime": 1564344139854,
@@ -326,9 +326,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/flexipages/Event_Record_Page.flexipage-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/flexipages/Event_Record_Page.flexipage-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/flexipages/Event_Record_Page.flexipage-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/flexipages/Event_Record_Page.flexipage-meta.xml",
             "isDirectory": false,
             "size": 2622,
             "modifiedTime": 1564318432419,
@@ -341,9 +341,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/flexipages/Event_Record_Page1.flexipage-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/flexipages/Event_Record_Page1.flexipage-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/flexipages/Event_Record_Page1.flexipage-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/flexipages/Event_Record_Page1.flexipage-meta.xml",
             "isDirectory": false,
             "size": 2622,
             "modifiedTime": 1564318432416,
@@ -356,9 +356,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/flexipages/Event_Record_Page2.flexipage-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/flexipages/Event_Record_Page2.flexipage-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/flexipages/Event_Record_Page2.flexipage-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/flexipages/Event_Record_Page2.flexipage-meta.xml",
             "isDirectory": false,
             "size": 2622,
             "modifiedTime": 1564344139855,
@@ -371,9 +371,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/layouts",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/layouts",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/layouts",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/layouts",
             "isDirectory": true,
             "size": 160,
             "modifiedTime": 1563751042375,
@@ -386,9 +386,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/layouts/Attendee__c-Attendee Layout.layout-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/layouts/Attendee__c-Attendee Layout.layout-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/layouts/Attendee__c-Attendee Layout.layout-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/layouts/Attendee__c-Attendee Layout.layout-meta.xml",
             "isDirectory": false,
             "size": 2353,
             "modifiedTime": 1563751042373,
@@ -401,9 +401,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/layouts/EventAttendee__c-Event Attendee Layout.layout-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/layouts/EventAttendee__c-Event Attendee Layout.layout-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/layouts/EventAttendee__c-Event Attendee Layout.layout-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/layouts/EventAttendee__c-Event Attendee Layout.layout-meta.xml",
             "isDirectory": false,
             "size": 2220,
             "modifiedTime": 1563751042375,
@@ -416,9 +416,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/layouts/Event__c-Event Layout.layout-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/layouts/Event__c-Event Layout.layout-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/layouts/Event__c-Event Layout.layout-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/layouts/Event__c-Event Layout.layout-meta.xml",
             "isDirectory": false,
             "size": 2997,
             "modifiedTime": 1564318432413,
@@ -431,9 +431,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/lwc",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/lwc",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/lwc",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/lwc",
             "isDirectory": true,
             "size": 128,
             "modifiedTime": 1563579125900,
@@ -446,9 +446,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects",
             "isDirectory": true,
             "size": 160,
             "modifiedTime": 1563751042362,
@@ -461,9 +461,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Attendee__c",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Attendee__c",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Attendee__c",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Attendee__c",
             "isDirectory": true,
             "size": 128,
             "modifiedTime": 1563751042363,
@@ -476,9 +476,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Attendee__c/Attendee__c.object-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Attendee__c/Attendee__c.object-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Attendee__c/Attendee__c.object-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Attendee__c/Attendee__c.object-meta.xml",
             "isDirectory": false,
             "size": 2054,
             "modifiedTime": 1563751042363,
@@ -491,9 +491,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Attendee__c/fields",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Attendee__c/fields",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Attendee__c/fields",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Attendee__c/fields",
             "isDirectory": true,
             "size": 128,
             "modifiedTime": 1563751042363,
@@ -506,9 +506,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Attendee__c/fields/Birthday__c.field-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Attendee__c/fields/Birthday__c.field-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Attendee__c/fields/Birthday__c.field-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Attendee__c/fields/Birthday__c.field-meta.xml",
             "isDirectory": false,
             "size": 310,
             "modifiedTime": 1563751042363,
@@ -521,9 +521,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Attendee__c/fields/Email__c.field-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Attendee__c/fields/Email__c.field-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Attendee__c/fields/Email__c.field-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Attendee__c/fields/Email__c.field-meta.xml",
             "isDirectory": false,
             "size": 332,
             "modifiedTime": 1563751042363,
@@ -536,9 +536,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/EventAttendee__c",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/EventAttendee__c",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/EventAttendee__c",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/EventAttendee__c",
             "isDirectory": true,
             "size": 128,
             "modifiedTime": 1563751042356,
@@ -551,9 +551,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/EventAttendee__c/EventAttendee__c.object-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/EventAttendee__c/EventAttendee__c.object-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/EventAttendee__c/EventAttendee__c.object-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/EventAttendee__c/EventAttendee__c.object-meta.xml",
             "isDirectory": false,
             "size": 2125,
             "modifiedTime": 1563751042356,
@@ -566,9 +566,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/EventAttendee__c/fields",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/EventAttendee__c/fields",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/EventAttendee__c/fields",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/EventAttendee__c/fields",
             "isDirectory": true,
             "size": 128,
             "modifiedTime": 1563751042356,
@@ -581,9 +581,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/EventAttendee__c/fields/Attendee__c.field-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/EventAttendee__c/fields/Attendee__c.field-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/EventAttendee__c/fields/Attendee__c.field-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/EventAttendee__c/fields/Attendee__c.field-meta.xml",
             "isDirectory": false,
             "size": 519,
             "modifiedTime": 1563751042356,
@@ -596,9 +596,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/EventAttendee__c/fields/Event__c.field-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/EventAttendee__c/fields/Event__c.field-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/EventAttendee__c/fields/Event__c.field-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/EventAttendee__c/fields/Event__c.field-meta.xml",
             "isDirectory": false,
             "size": 510,
             "modifiedTime": 1563751042356,
@@ -611,9 +611,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c",
             "isDirectory": true,
             "size": 128,
             "modifiedTime": 1563751042369,
@@ -626,9 +626,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/Event__c.object-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/Event__c.object-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/Event__c.object-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/Event__c.object-meta.xml",
             "isDirectory": false,
             "size": 2048,
             "modifiedTime": 1563748937211,
@@ -641,9 +641,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields",
             "isDirectory": true,
             "size": 224,
             "modifiedTime": 1563751042370,
@@ -656,9 +656,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields/Description__c.field-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields/Description__c.field-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields/Description__c.field-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields/Description__c.field-meta.xml",
             "isDirectory": false,
             "size": 355,
             "modifiedTime": 1563751042369,
@@ -671,9 +671,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields/EndDate__c.field-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields/EndDate__c.field-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields/EndDate__c.field-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields/EndDate__c.field-meta.xml",
             "isDirectory": false,
             "size": 313,
             "modifiedTime": 1563751042370,
@@ -686,9 +686,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields/Image__c.field-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields/Image__c.field-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields/Image__c.field-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields/Image__c.field-meta.xml",
             "isDirectory": false,
             "size": 355,
             "modifiedTime": 1563751042370,
@@ -701,9 +701,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields/StartDate__c.field-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields/StartDate__c.field-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields/StartDate__c.field-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields/StartDate__c.field-meta.xml",
             "isDirectory": false,
             "size": 317,
             "modifiedTime": 1563751042370,
@@ -716,9 +716,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields/Type__c.field-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields/Type__c.field-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/objects/Event__c/fields/Type__c.field-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/objects/Event__c/fields/Type__c.field-meta.xml",
             "isDirectory": false,
             "size": 1143,
             "modifiedTime": 1563751042370,
@@ -731,9 +731,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/permissionsets",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/permissionsets",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/permissionsets",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/permissionsets",
             "isDirectory": true,
             "size": 96,
             "modifiedTime": 1563967468186,
@@ -746,9 +746,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/permissionsets/BlackthornAdmin.permissionset-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/permissionsets/BlackthornAdmin.permissionset-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/permissionsets/BlackthornAdmin.permissionset-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/permissionsets/BlackthornAdmin.permissionset-meta.xml",
             "isDirectory": false,
             "size": 3010,
             "modifiedTime": 1563967468186,
@@ -761,9 +761,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/profiles",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/profiles",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/profiles",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/profiles",
             "isDirectory": true,
             "size": 64,
             "modifiedTime": 1564344447777,
@@ -776,9 +776,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/settings",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/settings",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/settings",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/settings",
             "isDirectory": true,
             "size": 96,
             "modifiedTime": 1564318432422,
@@ -791,9 +791,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/settings/Security.settings-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/settings/Security.settings-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/settings/Security.settings-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/settings/Security.settings-meta.xml",
             "isDirectory": false,
             "size": 2633,
             "modifiedTime": 1564318432422,
@@ -806,9 +806,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/staticresources",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/staticresources",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/staticresources",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/staticresources",
             "isDirectory": true,
             "size": 64,
             "modifiedTime": 1563579119918,
@@ -821,9 +821,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/tabs",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/tabs",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/tabs",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/tabs",
             "isDirectory": true,
             "size": 128,
             "modifiedTime": 1563967559266,
@@ -836,9 +836,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/tabs/Attendee__c.tab-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/tabs/Attendee__c.tab-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/tabs/Attendee__c.tab-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/tabs/Attendee__c.tab-meta.xml",
             "isDirectory": false,
             "size": 220,
             "modifiedTime": 1563966759093,
@@ -851,9 +851,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/tabs/Event__c.tab-meta.xml",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/tabs/Event__c.tab-meta.xml",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/tabs/Event__c.tab-meta.xml",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/tabs/Event__c.tab-meta.xml",
             "isDirectory": false,
             "size": 219,
             "modifiedTime": 1563881073681,
@@ -866,9 +866,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/triggers",
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/triggers",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn/force-app/main/default/triggers",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/triggers",
             "isDirectory": true,
             "size": 64,
             "modifiedTime": 1563579119918,
@@ -881,9 +881,9 @@
         }
     ],
     [
-        "/Users/diegoamarante/Documents/blackthorn/Blackthorn",
+        "/Users/diegoamarante/Documents/blackthorn",
         {
-            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/Blackthorn",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn",
             "isDirectory": true,
             "size": 448,
             "modifiedTime": 1564346132970,
