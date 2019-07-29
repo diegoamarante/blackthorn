@@ -1,0 +1,19 @@
+https://login.salesforce.com/?pw=diego123&un=negro@amarante.com
+
+
+negro@devhub.com
+diego123
+
+negro@developer.com
+diego123
+
+sfdx force:user:permset:assign --permsetname BlackthornAdmin --targetusername black
+
+https://github.com/cloudanswers/sfdx-autocomplete
+
+========
+field level security en with sharing
+
+*******
+Agregar Fflib
+
