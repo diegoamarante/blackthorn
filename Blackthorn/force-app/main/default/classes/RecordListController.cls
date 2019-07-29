@@ -4,4 +4,14 @@ public with sharing class RecordListController {
     public static List<Attendee__c> getRecords(Id recordId){
         return Database.query('Select Id, Name, Birthday__c From Attendee__c ');
     }
+
+    @AuraEnabled
+    public static string deleteRecord(Id recordId){
+        try {
+            delete [SELECT Id FROM EventAttendee__c Where Id =: recordId];
+        } catch (Exception e) {
+            throw new AuraHandledException(e.getMessage());
+        }
+        return 'Ok';
+    }
 }

@@ -5,12 +5,7 @@
         var actions = [
             { label: 'Show details', name: 'show_details' },
             { label: 'Delete', name: 'delete' }
-            ],
-        fetchData = {
-            name : 'company.companyName',
-            author: 'name.findName',
-            published : 'address.state'
-        };
+        ];
 
         var getRecords = component.get("c.getRecords");
 
@@ -43,10 +38,34 @@
 
         switch (action.name) {
             case 'show_details':
-                alert('Showing Details: ' + JSON.stringify(row));
+                var navEvt = $A.get("e.force:navigateToSObject");
+                navEvt.setParams({
+                    "recordId": row.Id
+                });
+                navEvt.fire();
                 break;
             case 'delete':
-                helper.removeBook(cmp, row);
+                var rows = component.get('v.data');
+                var rowIndex = rows.indexOf(row);
+                var deleteRecord = component.get("c.deleteRecord");
+
+                // set if we need related lists
+                deleteRecord.setParams({
+                    recordId: row.Id
+                });
+
+                deleteRecord.setCallback(this, function (response) {
+                    if (response.getState() === "SUCCESS") {
+                        rows.splice(rowIndex, 1);
+                        component.set('v.data', rows);
+                    } else {
+                        console.warn(response.getError());
+                    }
+                });
+                $A.enqueueAction(deleteRecord);
+
+
+                
                 break;
         }
     }

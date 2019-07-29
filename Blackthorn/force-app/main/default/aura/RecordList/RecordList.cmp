@@ -8,6 +8,15 @@
     <!-- handlers-->
     <aura:handler name="init" value="{! this }" action="{! c.init }"/>
     
+    <div class="slds-page-header slds-page-header_related-list">
+        <div class="slds-page-header__row">
+          <div class="slds-page-header__col-title">
+            <h1>
+                <span class="slds-page-header__title slds-truncate" title="Attendees">Attendees</span>
+            </h1>
+          </div>
+        </div>
+    </div>
     <!-- the container element determine the height of the datatable -->
     <div style="height: 300px">
         <lightning:datatable
