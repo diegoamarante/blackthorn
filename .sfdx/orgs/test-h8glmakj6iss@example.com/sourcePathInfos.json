@@ -32,15 +32,15 @@
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default",
             "isDirectory": true,
+            "size": 480,
+            "modifiedTime": 1564484624283,
+            "changeTime": 1564484624283,
+            "contentHash": "0eb77a80fa0c7c2b4f116c97aff6224f093a4929",
             "isMetadataFile": false,
-            "size": 416,
-            "modifiedTime": 1564442699868,
-            "changeTime": 1564442699868,
-            "isWorkspace": false,
-            "contentHash": "25e6fe1a7ea52f6bfe378a25e32a6fb9e520d593"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -242,11 +242,11 @@
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes",
             "isDirectory": true,
             "isMetadataFile": false,
-            "size": 1280,
-            "modifiedTime": 1564443819957,
-            "changeTime": 1564443819957,
+            "size": 1408,
+            "modifiedTime": 1564485111300,
+            "changeTime": 1564485111300,
             "isWorkspace": false,
-            "contentHash": "993a5cf1fb2e9b6c80bc9cac82105dd016560eeb"
+            "contentHash": "ba20c7d808f61e06718825ae36254ab25166e13f"
         }
     ],
     [
@@ -254,10 +254,10 @@
         {
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/RecordListController.cls",
             "isDirectory": false,
-            "size": 509,
-            "modifiedTime": 1564442699917,
-            "changeTime": 1564397704175,
-            "contentHash": "0fdf1051bfe532f8b6ba1cf0fb160ab25f7f4346",
+            "size": 587,
+            "modifiedTime": 1564483606078,
+            "changeTime": 1564483606078,
+            "contentHash": "7641887a097573eedd04d2ca7faf85b4a633d4be",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -806,509 +806,639 @@
     [
         "/Users/diegoamarante/Documents/blackthorn",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 384,
             "modifiedTime": 1564443528742,
             "changeTime": 1564443528742,
-            "isWorkspace": true,
-            "contentHash": "9ac6ce21c52031740e909b642bc922be78b8d55b"
+            "contentHash": "9ac6ce21c52031740e909b642bc922be78b8d55b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/labels",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/labels",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1564442699856,
             "changeTime": 1564442699856,
-            "contentHash": "c3835cc038e1e9f66a66938c26f39887d32c77d8"
+            "contentHash": "c3835cc038e1e9f66a66938c26f39887d32c77d8",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/labels/CustomLabels.labels-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/labels/CustomLabels.labels-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4236,
             "modifiedTime": 1564442699856,
             "changeTime": 1564442699856,
-            "contentHash": "095b8994a7b1c505800855829332f2b5fa32e330"
+            "contentHash": "095b8994a7b1c505800855829332f2b5fa32e330",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_Application.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_Application.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 15193,
             "modifiedTime": 1564442699838,
             "changeTime": 1564442699838,
-            "contentHash": "da0b8e78978c23c04f9adc7077b5e6fab3179356"
+            "contentHash": "da0b8e78978c23c04f9adc7077b5e6fab3179356",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_Application.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_Application.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699838,
             "changeTime": 1564442699838,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectDomain.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectDomain.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 729,
             "modifiedTime": 1564442699840,
             "changeTime": 1564442699840,
-            "contentHash": "e8c6c92826b714ce4f6740f37430d85d46fe019f"
+            "contentHash": "e8c6c92826b714ce4f6740f37430d85d46fe019f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectDomain.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectDomain.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699841,
             "changeTime": 1564442699841,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectSelector.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectSelector.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 761,
             "modifiedTime": 1564442699841,
             "changeTime": 1564442699841,
-            "contentHash": "72664c831bce00a512920e01c994fa2fea22e01f"
+            "contentHash": "72664c831bce00a512920e01c994fa2fea22e01f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectSelector.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectSelector.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699842,
             "changeTime": 1564442699842,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectUnitOfWork.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectUnitOfWork.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 7495,
             "modifiedTime": 1564442699842,
             "changeTime": 1564442699842,
-            "contentHash": "dfcdb8a8c81453d6b07052611ed072a47bfa6d86"
+            "contentHash": "dfcdb8a8c81453d6b07052611ed072a47bfa6d86",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectUnitOfWork.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_ISObjectUnitOfWork.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699843,
             "changeTime": 1564442699843,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_QueryFactory.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_QueryFactory.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 34234,
             "modifiedTime": 1564442699843,
             "changeTime": 1564442699843,
-            "contentHash": "4b8a71a8b1ebedc9f84ce9dffeec5f6d1c6302b2"
+            "contentHash": "4b8a71a8b1ebedc9f84ce9dffeec5f6d1c6302b2",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_QueryFactory.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_QueryFactory.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699844,
             "changeTime": 1564442699844,
-            "contentHash": "5690448073e1f4fad2748afd55cc064a162b59a5"
+            "contentHash": "5690448073e1f4fad2748afd55cc064a162b59a5",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_QueryFactoryTest.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_QueryFactoryTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 33134,
             "modifiedTime": 1564442699845,
             "changeTime": 1564442699845,
-            "contentHash": "a86607dc418e248d40437c0ec1d41191dde582bd"
+            "contentHash": "a86607dc418e248d40437c0ec1d41191dde582bd",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_QueryFactoryTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_QueryFactoryTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699845,
             "changeTime": 1564442699845,
-            "contentHash": "5690448073e1f4fad2748afd55cc064a162b59a5"
+            "contentHash": "5690448073e1f4fad2748afd55cc064a162b59a5",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDescribe.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDescribe.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 12963,
             "modifiedTime": 1564442699846,
             "changeTime": 1564442699846,
-            "contentHash": "b2992ff8c23ed013b70e4223570c221da03ea91c"
+            "contentHash": "b2992ff8c23ed013b70e4223570c221da03ea91c",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDescribe.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDescribe.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699846,
             "changeTime": 1564442699846,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDescribeTest.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDescribeTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 8775,
             "modifiedTime": 1564442699846,
             "changeTime": 1564442699846,
-            "contentHash": "d83499e69c06d9ad5bf748a71a04c7a80e9a58cb"
+            "contentHash": "d83499e69c06d9ad5bf748a71a04c7a80e9a58cb",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDescribeTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDescribeTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699847,
             "changeTime": 1564442699847,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDomain.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDomain.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 35090,
             "modifiedTime": 1564442699847,
             "changeTime": 1564442699847,
-            "contentHash": "54b4050b2be2cb6090d00a3589d93920553abcba"
+            "contentHash": "54b4050b2be2cb6090d00a3589d93920553abcba",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDomain.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDomain.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699848,
             "changeTime": 1564442699848,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDomainTest.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDomainTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 19158,
             "modifiedTime": 1564442699848,
             "changeTime": 1564442699848,
-            "contentHash": "fa8b12c67c19986b011ff92f9b7a0a54707881b8"
+            "contentHash": "fa8b12c67c19986b011ff92f9b7a0a54707881b8",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDomainTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectDomainTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699848,
             "changeTime": 1564442699848,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectSelector.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectSelector.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 17736,
             "modifiedTime": 1564442699850,
             "changeTime": 1564442699850,
-            "contentHash": "3fb8c5122699294394dfd2b0ef3c493e539a9cbd"
+            "contentHash": "3fb8c5122699294394dfd2b0ef3c493e539a9cbd",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectSelector.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectSelector.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699850,
             "changeTime": 1564442699850,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectSelectorTest.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectSelectorTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 12180,
             "modifiedTime": 1564442699850,
             "changeTime": 1564442699850,
-            "contentHash": "ccbe064b65ca78285fecfceeede11a3e48676bb9"
+            "contentHash": "ccbe064b65ca78285fecfceeede11a3e48676bb9",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectSelectorTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectSelectorTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699851,
             "changeTime": 1564442699851,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectUnitOfWork.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectUnitOfWork.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 25846,
             "modifiedTime": 1564442699851,
             "changeTime": 1564442699851,
-            "contentHash": "649cdc9e085e2ba497d2ccc258960184f05e1373"
+            "contentHash": "649cdc9e085e2ba497d2ccc258960184f05e1373",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectUnitOfWork.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectUnitOfWork.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699851,
             "changeTime": 1564442699851,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectUnitOfWorkTest.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectUnitOfWorkTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 25069,
             "modifiedTime": 1564442699852,
             "changeTime": 1564442699852,
-            "contentHash": "353140fca502f316b778ccbd5a3ad5567e74205e"
+            "contentHash": "353140fca502f316b778ccbd5a3ad5567e74205e",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectUnitOfWorkTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SObjectUnitOfWorkTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699852,
             "changeTime": 1564442699852,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SecurityUtils.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SecurityUtils.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 14994,
             "modifiedTime": 1564442699853,
             "changeTime": 1564442699853,
-            "contentHash": "e22ffb3e77f9b147aeead502a0b69f64687cc1e1"
+            "contentHash": "e22ffb3e77f9b147aeead502a0b69f64687cc1e1",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SecurityUtils.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SecurityUtils.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699853,
             "changeTime": 1564442699853,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SecurityUtilsTest.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SecurityUtilsTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 9197,
             "modifiedTime": 1564442699853,
             "changeTime": 1564442699853,
-            "contentHash": "d592a07491e9046860501cb92ef80df2e4ff3b50"
+            "contentHash": "d592a07491e9046860501cb92ef80df2e4ff3b50",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SecurityUtilsTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_SecurityUtilsTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699854,
             "changeTime": 1564442699854,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_StringBuilder.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_StringBuilder.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 4894,
             "modifiedTime": 1564442699854,
             "changeTime": 1564442699854,
-            "contentHash": "8f41b2280251491e4f887d06d011a595c553871a"
+            "contentHash": "8f41b2280251491e4f887d06d011a595c553871a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_StringBuilder.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_StringBuilder.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699854,
             "changeTime": 1564442699854,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_StringBuilderTest.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_StringBuilderTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 5588,
             "modifiedTime": 1564442699854,
             "changeTime": 1564442699854,
-            "contentHash": "5d894b0a09d1c8a187128430317cf5b17657bdf6"
+            "contentHash": "5d894b0a09d1c8a187128430317cf5b17657bdf6",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_StringBuilderTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/fflib_StringBuilderTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1564442699855,
             "changeTime": 1564442699855,
-            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe"
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/EventAttendeeSelector.cls",
+        {
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/EventAttendeeSelector.cls",
+            "isDirectory": false,
+            "size": 992,
+            "modifiedTime": 1564483484240,
+            "changeTime": 1564483484240,
+            "contentHash": "60e0035a03dc3df6f1f9a6f857d1dde2162bae53",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/EventAttendeeSelector.cls-meta.xml",
+        {
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/EventAttendeeSelector.cls-meta.xml",
+            "isDirectory": false,
+            "size": 199,
+            "modifiedTime": 1564444310282,
+            "changeTime": 1564444310282,
+            "contentHash": "42d10e902c75073abbf6168a8058af5e8ed481c5",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/pages",
+        {
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/pages",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1564484491384,
+            "changeTime": 1564484491384,
+            "contentHash": "0424f3556de80c0959c91d7ae35d653525c46caf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/triggers",
+        {
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/triggers",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1564484624311,
+            "changeTime": 1564484624311,
+            "contentHash": "cb8c8a755214c900959d7ed8337d2a85a5c746bf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/pages/RegisterEvent.page",
+        {
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/pages/RegisterEvent.page",
+            "isDirectory": false,
+            "size": 172,
+            "modifiedTime": 1564484603717,
+            "changeTime": 1564484603717,
+            "contentHash": "455575994fbf85914365e9143f0dad9b46eeefd7",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/pages/RegisterEvent.page-meta.xml",
+        {
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/pages/RegisterEvent.page-meta.xml",
+            "isDirectory": false,
+            "size": 194,
+            "modifiedTime": 1564484491385,
+            "changeTime": 1564484491385,
+            "contentHash": "c2d3eb0b9c6fb3cf18fc3f353e2966e89fe87640",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/triggers/Events.trigger",
+        {
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/triggers/Events.trigger",
+            "isDirectory": false,
+            "size": 108,
+            "modifiedTime": 1564484698192,
+            "changeTime": 1564484698192,
+            "contentHash": "abfcb70247e6ec679cfb44e867e554c6c117d63c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/triggers/Events.trigger-meta.xml",
+        {
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/triggers/Events.trigger-meta.xml",
+            "isDirectory": false,
+            "size": 186,
+            "modifiedTime": 1564484624311,
+            "changeTime": 1564484624311,
+            "contentHash": "4da093d498047ef57212a2c39806398777bbe972",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/Events.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/Events.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 842,
+            "modifiedTime": 1564485751499,
+            "changeTime": 1564485751499,
+            "contentHash": "0671e86898f2c4617c97480523ddf34a069f1876"
+        }
+    ],
+    [
+        "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/Events.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/diegoamarante/Documents/blackthorn/force-app/main/default/classes/Events.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 184,
+            "modifiedTime": 1564485111300,
+            "changeTime": 1564485111300,
+            "contentHash": "8bff35e570f911408bab38035fa33c4b3095a120"
         }
     ]
 ]
