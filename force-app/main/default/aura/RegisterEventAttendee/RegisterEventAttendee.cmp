@@ -1,0 +1,3 @@
+<aura:component access="global">
+    <h1>Sample Lightnign Component for a Visualforce Page Demo </h1>
+</aura:component>	
