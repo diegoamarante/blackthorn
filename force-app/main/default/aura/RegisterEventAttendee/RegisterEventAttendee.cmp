@@ -1,6 +1,9 @@
 <aura:component access="global" implements="force:hasRecordId" controller="RegisterEventController">
     <aura:attribute name="eventId" type="String" />
     <aura:attribute name="name" type="String" />
+    <aura:attribute name="description" type="String" />
+    <aura:attribute name="startDate" type="Date" />
+    <aura:attribute name="endDate" type="Date" />
 
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
 
@@ -20,42 +23,32 @@
             <div class="c-container">
                 <lightning:layout pullToBoundary="medium">
                     <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
-                        <div class="custom-box">{!v.name}</div>
+                        <div class="custom-box">
+                            <lightning:input type="date" name="input1" disabled="true" label="" value="{!v.name}"/>
+                        </div>                    
                     </lightning:layoutItem>
                     <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
-                        <div class="custom-box">2</div>
+                        <div class="custom-box">
+                            <lightning:input type="date" name="input1" disabled="true" label="Description" value="{!v.description}"/>
+                        </div>
                     </lightning:layoutItem>
                     <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
-                        <div class="custom-box">3</div>
+                        <div class="custom-box">
+                            <lightning:input type="date" name="input1" disabled="true" label="Starts" value="{!v.startDate}"/>
+                        </div>
                     </lightning:layoutItem>
                     <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
-                        <div class="custom-box">4</div>
+                        <div class="custom-box">
+                            <lightning:input type="date" name="input1" disabled="true" label="Ends" value="{!v.endDate}"/>
+                        </div>
+                    </lightning:layoutItem>
+                    <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
+                        <div class="custom-box">
+                            <lightning:button label="Get your ticket" />
+                        </div>
                     </lightning:layoutItem>
                 </lightning:layout>
             </div>
-            <lightning:card title="Event Details">
-                <!-- lightning:card body section starts -->
-                <p class="slds-p-horizontal_small">
-                    <!-- Forming a grid of two equal columns -->
-                    <div class="slds-grid">
-                        <div class="slds-col slds-size_1-of-2">
-                            <!-- 
-                                Using lightning:outputField Tag with fieldName = Api name of field,
-                                if you are using a custom field, do check you have __c in the api name
-                            -->
-                            
-                            <lightning:outputField fieldName="Name" />    
-                            <lightning:outputField fieldName="LastName" />    
-                            <lightning:outputField fieldName="MobilePhone" />    
-                        </div>
-                        <div class="slds-col slds-size_1-of-2">
-                            <lightning:outputField fieldName="AccountId" />    
-                            <lightning:outputField fieldName="Department" />    
-                            <lightning:outputField fieldName="Birthdate" />    
-                        </div>
-                    </div>
-                </p>
-            </lightning:card>  
         </div>
     </article>
 </aura:component>	

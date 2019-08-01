@@ -11,6 +11,9 @@
             if (state === "SUCCESS") {
                 if( response.getReturnValue() ){
                     component.set('v.name',response.getReturnValue().Name);
+                    component.set('v.description',response.getReturnValue().BTTrial__Description__c);
+                    component.set('v.startDate',response.getReturnValue().BTTrial__StartDate__c);
+                    component.set('v.endDate',response.getReturnValue().BTTrial__EndDate__c);
                 }
                 console.log(response.getReturnValue())
 

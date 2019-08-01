@@ -17,6 +17,22 @@ public class Events extends fflib_SObjectDomain {
         for(Event__c record : (List<Event__c>) Records){
             
         }
+
+        // Site mySite = [SELECT Id FROM Site ];
+        // String mySiteUrl = mySite.getPublicUrl();
+        // System.debug(mySiteUrl);
+        // system.debug(Site.getBaseUrl());
+
+
+        // Site site = [SELECT GuestUserId, Name, Subdomain, UrlPathPrefix FROM Site WHERE Name = :'BTTest'];
+
+        // Organization org = [SELECT InstanceName, IsSandbox, OrganizationType FROM Organization];
+
+        // String siteFullUrl = 'https://' + site.Subdomain + '.';
+        // siteFullUrl += (org.IsSandbox || org.OrganizationType == 'Developer Edition' ? (org.InstanceName.toLowerCase() + '.') : '') + 'force.com';
+        // siteFullUrl += '/' + site.UrlPathPrefix;
+        // system.debug(siteFullUrl);
+
     }
 
     public override void onAfterUpdate(Map<Id,SObject> existingRecords) {
