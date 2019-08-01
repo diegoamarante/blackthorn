@@ -1,20 +1,15 @@
-<apex:page controller="RegisterEventController">
+<apex:page >
     <apex:includeLightning />    
     <div id="componentContainerId" />    
     <script>
+        var eventId = "{!$CurrentPage.parameters.id}";
         $Lightning.use("c:RegisterEvent", function() {
             $Lightning.createComponent("c:RegisterEventAttendee",
-              { 
-              },
+            { "eventId" : eventId },
               "componentContainerId",
               function(cmp) {
                  console.log('Rendering the lightning component.');
               });
         });
     </script>
-    <!-- Begin Default Content REMOVE THIS -->
-    <h1>Congratulations</h1>
-    {!event.Name}
-    This is your new Page
-    <!-- End Default Content REMOVE THIS -->
 </apex:page>

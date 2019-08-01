@@ -1,3 +1,61 @@
-<aura:component access="global">
-    <h1>Sample Lightnign Component for a Visualforce Page Demo </h1>
+<aura:component access="global" implements="force:hasRecordId" controller="RegisterEventController">
+    <aura:attribute name="eventId" type="String" />
+    <aura:attribute name="name" type="String" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-title">
+                        <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Events">
+                            <span>Event</span>
+                        </a>
+                    </h2>
+                </div>
+            </header>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+            <div class="c-container">
+                <lightning:layout pullToBoundary="medium">
+                    <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
+                        <div class="custom-box">{!v.name}</div>
+                    </lightning:layoutItem>
+                    <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
+                        <div class="custom-box">2</div>
+                    </lightning:layoutItem>
+                    <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
+                        <div class="custom-box">3</div>
+                    </lightning:layoutItem>
+                    <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
+                        <div class="custom-box">4</div>
+                    </lightning:layoutItem>
+                </lightning:layout>
+            </div>
+            <lightning:card title="Event Details">
+                <!-- lightning:card body section starts -->
+                <p class="slds-p-horizontal_small">
+                    <!-- Forming a grid of two equal columns -->
+                    <div class="slds-grid">
+                        <div class="slds-col slds-size_1-of-2">
+                            <!-- 
+                                Using lightning:outputField Tag with fieldName = Api name of field,
+                                if you are using a custom field, do check you have __c in the api name
+                            -->
+                            
+                            <lightning:outputField fieldName="Name" />    
+                            <lightning:outputField fieldName="LastName" />    
+                            <lightning:outputField fieldName="MobilePhone" />    
+                        </div>
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning:outputField fieldName="AccountId" />    
+                            <lightning:outputField fieldName="Department" />    
+                            <lightning:outputField fieldName="Birthdate" />    
+                        </div>
+                    </div>
+                </p>
+            </lightning:card>  
+        </div>
+    </article>
 </aura:component>	
