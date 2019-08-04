@@ -36,5 +36,11 @@
         // which could trigger other events and 
         // other server-side action calls.
         // $A.enqueueAction adds the server-side action to the queue.
-        $A.enqueueAction(action);    }
+        $A.enqueueAction(action);    
+    },
+    showTicket : function(component, event, helper) {
+        component.set('v.showTicket', !component.get('v.showTicket'));
+        component.set('v.v.attendeeName', 'Nombre');
+    }
+
 })

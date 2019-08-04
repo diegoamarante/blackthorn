@@ -5,6 +5,13 @@
     <aura:attribute name="startDate" type="Date" />
     <aura:attribute name="endDate" type="Date" />
 
+    <aura:attribute name="disabled" type="Boolean" default="false" />
+    <aura:attribute name="saved" type="Boolean" default="false" />
+    <aura:attribute name="showTicket" type="Boolean" default="false" />
+    <aura:attribute name="showSpinner" type="Boolean" default="true" />
+    <aura:attribute name="recordId" type="String" />
+        
+
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
 
     <article class="slds-card">
@@ -24,31 +31,48 @@
                 <lightning:layout pullToBoundary="medium">
                     <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
                         <div class="custom-box">
-                            <lightning:input type="date" name="input1" disabled="true" label="" value="{!v.name}"/>
+                            <lightning:input type="String"  label="Name" value="{!v.name}"/>
                         </div>                    
                     </lightning:layoutItem>
                     <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
                         <div class="custom-box">
-                            <lightning:input type="date" name="input1" disabled="true" label="Description" value="{!v.description}"/>
+                            <lightning:input type="String"  label="Description" value="{!v.description}"/>
                         </div>
                     </lightning:layoutItem>
                     <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
                         <div class="custom-box">
-                            <lightning:input type="date" name="input1" disabled="true" label="Starts" value="{!v.startDate}"/>
+                            <lightning:input type="date"  label="Starts" value="{!v.startDate}"/>
                         </div>
                     </lightning:layoutItem>
                     <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
                         <div class="custom-box">
-                            <lightning:input type="date" name="input1" disabled="true" label="Ends" value="{!v.endDate}"/>
-                        </div>
-                    </lightning:layoutItem>
-                    <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
-                        <div class="custom-box">
-                            <lightning:button label="Get your ticket" />
+                            <lightning:input type="date"  label="Ends" value="{!v.endDate}"/>
                         </div>
                     </lightning:layoutItem>
                 </lightning:layout>
             </div>
         </div>
+        <footer class="slds-card__footer">
+            <lightning:button label="Get your ticket" onclick="{!c.showTicket}"/>
+        </footer>
+
+        <aura:if isTrue="{!v.showTicket}">
+            <div aria-labelledby="newAttendee">
+                <fieldset class="slds-box slds-theme--default slds-container--small">
+                    <legend id="newAttendee" class="slds-text-heading--small slds-p-vertical--medium">
+                    Add Attendee details
+                    </legend>
+            
+                    <form class="slds-form">          
+                        <lightning:input label="Attendee Name" value="{!v.name}" required="true" type="String"/> 
+                        <lightning:input type="date" label="Birthday" value="{!v.attendeeDate}"/>
+                        <lightning:input label="Email" value="{!v.attendeeEmail}" type="Email"/>
+                        <lightning:input type="date" label="Expense Date" value="{!v.attendee}"/>
+                        <lightning:button label="Create Expense" class="slds-m-top--medium" variant="brand" onclick="{!c.clickCreate}"/>
+                    </form>
+                </fieldset>
+            </div>
+        </aura:if>
     </article>
+
 </aura:component>	
