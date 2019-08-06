@@ -12,6 +12,8 @@ diego123
 
 sfdx force:user:permset:assign --permsetname BlackthornAdmin --targetusername black
 
+sfdx force:data:tree:import -f data/BTTrial__Attendee__c.json,data/BTTrial__Event__c.json 
+
 https://github.com/cloudanswers/sfdx-autocomplete
 
 ========

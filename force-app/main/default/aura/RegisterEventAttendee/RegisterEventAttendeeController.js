@@ -29,18 +29,61 @@
                 }
             }
         });
-
-        // optionally set storable, abortable, background flag here
-
-        // A client-side action could cause multiple events, 
-        // which could trigger other events and 
-        // other server-side action calls.
-        // $A.enqueueAction adds the server-side action to the queue.
         $A.enqueueAction(action);    
     },
     showTicket : function(component, event, helper) {
-        component.set('v.showTicket', !component.get('v.showTicket'));
-        component.set('v.v.attendeeName', 'Nombre');
-    }
+        component.set('v.showTicket', true);
+        component.set('v.showResult', true);
+        component.set('v.showButtonTicket', true);
+    },
+    clickCreate : function(component, event, helper) {
+        component.set('v.showSpinner', true);
+        component.set('v.showTicket', false);
 
+        var attendee = {};
+        attendee.Name = component.get('v.attendeeName');
+        attendee.BTTrial__Birthday__c = component.get('v.attendeeBirthday');
+        attendee.BTTrial__Email__c = component.get('v.attendeeEmail');
+        console.log(attendee);
+
+        var registerAttendee = component.get('c.registerAttendee');
+        registerAttendee.setParams({ 
+            recordId : component.get('v.eventId'),
+            attendee : attendee
+        });
+
+        registerAttendee.setCallback(this, function(response) {
+            var state = response.getState();
+            if (state === "SUCCESS") {
+                component.set('v.showSpinner', false);
+                component.set('v.showButtonTicket', true);
+                component.set('v.showResult', false);
+                component.set('v.showTicket', true);
+                component.set('v.errorMsg', 'Registration correct');
+
+                /*var toastEvent = $A.get("e.force:showToast");
+                toastEvent.setParams({
+                    "title": "Success!",
+                    "message": "The record has been updated successfully."
+                });
+                toastEvent.fire();*/
+
+            } else if (state === "ERROR") {
+                var errors = response.getError();
+                if (errors) {
+                    if (errors[0] && errors[0].message) {
+                        component.set('v.errorMsg', errors[0].message);
+                        component.set('v.showResult', false);
+                        component.set('v.showSpinner', false);
+                        component.set('v.showTicket', true);
+                        component.set('v.showButtonTicket', true);
+                        console.log("Error message: " + errors[0].message);
+                    }
+                } else {
+                    console.log("Unknown error");
+                }
+            }
+        });
+        $A.enqueueAction(registerAttendee);  
+    }
 })
