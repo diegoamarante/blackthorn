@@ -79,7 +79,20 @@
                     </fieldset>
                 </div>
                 <aura:set attribute="else">
-                    {!v.errorMsg}
+                    
+                    <!--<ui:message title="Confirmation" severity="confirm" closable="true">
+                            This is a confirmation message.
+                    </ui:message>-->
+                    <ui:message title="Information" severity="info" closable="true">
+                        {!v.errorMsg}
+                    </ui:message>
+                    <!--<ui:message title="Warning" severity="warning" closable="true">
+                            This is a warning.
+                    </ui:message>
+                    <ui:message title="Error" severity="error" closable="true">
+                            This is an error message.
+                    </ui:message>-->
+                    
                 </aura:set>
             </aura:if>
         </aura:if>

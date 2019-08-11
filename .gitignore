@@ -1,0 +1,4 @@
+*.sfdx/
+.sfdx/
+*.vscode/
+.vscode/

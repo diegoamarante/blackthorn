@@ -56,17 +56,14 @@
             var state = response.getState();
             if (state === "SUCCESS") {
                 component.set('v.showSpinner', false);
-                component.set('v.showButtonTicket', true);
+                component.set('v.showButtonTicket', false);
                 component.set('v.showResult', false);
                 component.set('v.showTicket', true);
-                component.set('v.errorMsg', 'Registration correct');
 
-                /*var toastEvent = $A.get("e.force:showToast");
-                toastEvent.setParams({
-                    "title": "Success!",
-                    "message": "The record has been updated successfully."
-                });
-                toastEvent.fire();*/
+                component.set('v.errorMsg', 'Registration correct');
+                component.set('v.attendeeName', '');
+                component.set('v.attendeeBirthday', '');
+                component.set('v.attendeeEmail', '');
 
             } else if (state === "ERROR") {
                 var errors = response.getError();
