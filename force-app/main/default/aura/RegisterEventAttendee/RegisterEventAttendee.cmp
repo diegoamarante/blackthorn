@@ -4,15 +4,13 @@
     <aura:attribute name="description" type="String" />
     <aura:attribute name="startDate" type="Date" />
     <aura:attribute name="endDate" type="Date" />
-
+    <aura:attribute name="image" type="String" />
     <aura:attribute name="disabled" type="Boolean" />
     <aura:attribute name="attendeeName" type="String" />
     <aura:attribute name="attendeeBirthday" type="Date" />
     <aura:attribute name="attendeeEmail" type="String" />
-
     <aura:attribute name="showTicket" type="Boolean" default="false" />
     <aura:attribute name="showButtonTicket" type="Boolean" default="false" />
-
     <aura:attribute name="showSpinner" type="Boolean" default="false" />
     <aura:attribute name="showResult" type="Boolean" default="false" />
     <aura:attribute name="errorMsg" type="String" />
@@ -21,85 +19,87 @@
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
 
     <article class="slds-card">
-        <div class="slds-card__header slds-grid">
-            <header class="slds-media slds-media_center slds-has-flexi-truncate">
-                <div class="slds-media__body">
-                    <h2 class="slds-card__header-title">
-                        <a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="Events">
-                            <span>Event</span>
-                        </a>
-                    </h2>
-                </div>
-            </header>
-        </div>
-        <div class="slds-card__body slds-card__body_inner">
-            <div class="c-container">
-                <lightning:layout pullToBoundary="medium">
-                    <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
-                        <div class="custom-box">
-                            <lightning:input type="String" disabled="true" label="Name" value="{!v.name}"/>
-                        </div>                    
-                    </lightning:layoutItem>
-                    <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
-                        <div class="custom-box">
-                            <lightning:input type="String" disabled="true" label="Description" value="{!v.description}"/>
+        <lightning:layout multipleRows="true">
+            <lightning:layoutItem size="6" padding="around-small">
+                <h2 class="slds-card__header-title">
+                    <span>Event</span>
+                </h2>
+                <lightning:layout multipleRows="true">
+                    <lightning:layoutItem size="12" padding="around-small">
+                        <div class="page-section page-right">
+                            <h2>Name</h2>
+                            <ui:outputText value="{!v.name}"/>
                         </div>
                     </lightning:layoutItem>
-                    <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
-                        <div class="custom-box">
-                            <lightning:input type="date" disabled="true" label="Starts" value="{!v.startDate}"/>
+                    <lightning:layoutItem size="6" padding="around-small">
+                        <div class="page-section page-right">
+                            <h2>Starts</h2>
+                            <ui:outputDate aura:id="oDate" value="{!v.startDate}" />
                         </div>
                     </lightning:layoutItem>
-                    <lightning:layoutItem flexibility="auto" padding="horizontal-medium">
-                        <div class="custom-box">
-                            <lightning:input type="date" disabled="true" label="Ends" value="{!v.endDate}"/>
+                    <lightning:layoutItem size="6" padding="around-small">
+                        <div class="page-section page-right">
+                            <h2>Ends</h2>
+                            <ui:outputDate aura:id="oDate" value="{!v.endDate}" />
+                        </div>
+                    </lightning:layoutItem>
+                    <lightning:layoutItem size="12" padding="around-small">
+                        <div class="page-section page-right">
+                            <ui:outputText value="{!v.description}"/>
+                        </div>
+                    </lightning:layoutItem>
+                    <lightning:layoutItem size="12" padding="around-small">
+                        <div class="page-section page-right">
+                            <img src="{!v.image}"/>
                         </div>
                     </lightning:layoutItem>
                 </lightning:layout>
-            </div>
-        </div>
-        <footer class="slds-card__footer">
+                
+            </lightning:layoutItem>
+            <lightning:layoutItem size="6" padding="around-small">
+                <aura:if isTrue="{!v.showTicket}">
+                    <aura:if isTrue="{!v.showResult}">
+                        <div aria-labelledby="newAttendee">
+                            <fieldset class="slds-box slds-theme--default slds-container--small">
+                                <legend id="newAttendee" class="slds-text-heading--small slds-p-vertical--medium">
+                                Add Attendee details
+                                </legend>
+                        
+                                <form class="slds-form">          
+                                    <lightning:input label="Attendee Name" value="{!v.attendeeName}" required="true" type="String"/> 
+                                    <lightning:input type="date" label="Birthday" value="{!v.attendeeBirthday}"/>
+                                    <lightning:input label="Email" value="{!v.attendeeEmail}" type="Email"/>
+                                    <lightning:button label="Register" class="slds-m-top--medium" variant="brand" onclick="{!c.clickCreate}"/>
+                                </form>
+                            </fieldset>
+                        </div>
+                        <aura:set attribute="else">
+                            
+                            <!--<ui:message title="Confirmation" severity="confirm" closable="true">
+                                    This is a confirmation message.
+                            </ui:message>-->
+                            <ui:message title="Information" severity="info" closable="true">
+                                {!v.errorMsg}
+                            </ui:message>
+                            <!--<ui:message title="Warning" severity="warning" closable="true">
+                                    This is a warning.
+                            </ui:message>
+                            <ui:message title="Error" severity="error" closable="true">
+                                    This is an error message.
+                            </ui:message>-->
+                            
+                        </aura:set>
+                    </aura:if>
+                </aura:if>
+                <aura:if isTrue="{!v.showSpinner}">
+                    <div class="exampleHolder">
+                        <lightning:spinner alternativeText="Loading" size="small" />
+                    </div>
+                </aura:if>
+            </lightning:layoutItem>
+        </lightning:layout>
+        <footer class="slds-card__footer center">
             <lightning:button label="Get your ticket" onclick="{!c.showTicket}" disabled="{!v.showButtonTicket}"/>
         </footer>
-
-        <aura:if isTrue="{!v.showTicket}">
-            <aura:if isTrue="{!v.showResult}">
-                <div aria-labelledby="newAttendee">
-                    <fieldset class="slds-box slds-theme--default slds-container--small">
-                        <legend id="newAttendee" class="slds-text-heading--small slds-p-vertical--medium">
-                        Add Attendee details
-                        </legend>
-                
-                        <form class="slds-form">          
-                            <lightning:input label="Attendee Name" value="{!v.attendeeName}" required="true" type="String"/> 
-                            <lightning:input type="date" label="Birthday" value="{!v.attendeeBirthday}"/>
-                            <lightning:input label="Email" value="{!v.attendeeEmail}" type="Email"/>
-                            <lightning:button label="Register" class="slds-m-top--medium" variant="brand" onclick="{!c.clickCreate}"/>
-                        </form>
-                    </fieldset>
-                </div>
-                <aura:set attribute="else">
-                    
-                    <!--<ui:message title="Confirmation" severity="confirm" closable="true">
-                            This is a confirmation message.
-                    </ui:message>-->
-                    <ui:message title="Information" severity="info" closable="true">
-                        {!v.errorMsg}
-                    </ui:message>
-                    <!--<ui:message title="Warning" severity="warning" closable="true">
-                            This is a warning.
-                    </ui:message>
-                    <ui:message title="Error" severity="error" closable="true">
-                            This is an error message.
-                    </ui:message>-->
-                    
-                </aura:set>
-            </aura:if>
-        </aura:if>
-        <aura:if isTrue="{!v.showSpinner}">
-            <div class="exampleHolder">
-                <lightning:spinner alternativeText="Loading" size="small" />
-            </div>
-        </aura:if>
     </article>
 </aura:component>	

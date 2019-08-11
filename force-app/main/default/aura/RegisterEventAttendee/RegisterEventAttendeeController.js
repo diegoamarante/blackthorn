@@ -14,6 +14,7 @@
                     component.set('v.description',response.getReturnValue().BTTrial__Description__c);
                     component.set('v.startDate',response.getReturnValue().BTTrial__StartDate__c);
                     component.set('v.endDate',response.getReturnValue().BTTrial__EndDate__c);
+                    component.set('v.image',response.getReturnValue().BTTrial__Image__c);
                 }
                 console.log(response.getReturnValue())
 
