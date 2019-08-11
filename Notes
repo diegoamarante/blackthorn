@@ -16,17 +16,11 @@ sfdx force:data:tree:import -f data/BTTrial__Attendee__c.json,data/BTTrial__Even
 
 https://github.com/cloudanswers/sfdx-autocomplete
 
-========
-field level security en with sharing
-
-https://sandbox-bttest-developer-edition.cs47.force.com/RegisterEvent?id=a022a000001hbeaAAA
-
-***** Pendiente
-Servicio para Registrar Attendee
-Selector para Event
-Selector para Attendee
-Test Methods
 
 
-FrontEnd
-    Decidir Site o Community
+Documentacion
+
+Modelo de Datos
+
+Post install
+    Custom setting con site url
