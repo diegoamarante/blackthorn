@@ -20,8 +20,8 @@ public class EventAttendeeSelector extends fflib_SObjectSelector {
         };
     }
 
-    public List<Event__c> selectById(Set<Id> idSet){
-        return (List<Event__c>) selectSObjectsById(idSet);
+    public List<EventAttendee__c> selectById(Set<Id> idSet){
+        return (List<EventAttendee__c>) selectSObjectsById(idSet);
     }
    
     public List<EventAttendee__c> selectByEventAndAttendees(Set<Id> eventIds, Set<Id> attendeeIds) {

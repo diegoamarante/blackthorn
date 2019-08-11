@@ -106,4 +106,36 @@ public with sharing class TestEventsService {
         String url = 'test.com/RegisterEvent?id='+String.valueOf(event.Id);
         System.assertEquals(url, [Select Id, Url__c FROM Event__c WHERE ID =: event.Id limit 1].URL__c);
     }
+
+    @IsTest
+    static void testRecordListGet(){
+        Event__c event = new Event__c(Name = 'Test');
+        insert event;
+        Attendee__c attendee = new Attendee__c(Name = 'test', Email__c = 'test@test.com');
+        insert attendee;
+        EventAttendee__c eventAttendee = new EventAttendee__c(Event__c = event.Id, Attendee__c = attendee.Id);
+        insert eventAttendee;
+        
+        Test.startTest();
+            List<Attendee__c> attendees = RecordListController.getRecords(event.Id);
+        Test.stopTest();
+        
+        System.assertEquals(1, attendees.size());
+    }
+
+    @IsTest
+    static void testRecordListDelete(){
+        Event__c event = new Event__c(Name = 'Test');
+        insert event;
+        Attendee__c attendee = new Attendee__c(Name = 'test', Email__c = 'test@test.com');
+        insert attendee;
+        EventAttendee__c eventAttendee = new EventAttendee__c(Event__c = event.Id, Attendee__c = attendee.Id);
+        insert eventAttendee;
+        
+        Test.startTest();
+            RecordListController.deleteRecord(eventAttendee.Id);
+        Test.stopTest();
+        
+        System.assertEquals(0, [Select Id from EventAttendee__c].size());
+    }
 }
