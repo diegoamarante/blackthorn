@@ -14,14 +14,32 @@ public class Events extends fflib_SObjectDomain {
     }
 
     public override void onAfterInsert(){
-        for(Event__c record : (List<Event__c>) Records){
-            
+        fflib_SObjectUnitOfWork uow = new fflib_SObjectUnitOfWork(new List<Schema.SObjectType>{Event__c.SObjectType});
+        FESettings__c settings = FESettings__c.getInstance();
+        if( settings.SiteURL__c != null && settings.SiteURL__c != '' ){
+            for(Event__c record : (List<Event__c>) Records){
+                Event__c e = record.clone(true);
+                e.URL__c = settings.SiteURL__c + '/RegisterEvent?id=' + String.valueOf(e.Id);
+                system.debug(e);
+                uow.registerDirty(e);
+            }
+            uow.commitWork();
         }
     }
 
-    public override void onAfterUpdate(Map<Id,SObject> existingRecords) {
-        for(Event__c record : (List<Event__c>) Records){
-            
+    public override void onBeforeUpdate(Map<Id,SObject> existingRecords) {
+        fflib_SObjectUnitOfWork uow = new fflib_SObjectUnitOfWork(new List<Schema.SObjectType>{Event__c.SObjectType});
+        FESettings__c settings = FESettings__c.getInstance();
+        if( settings.SiteURL__c != null && settings.SiteURL__c != '' ){
+            for(Event__c record : (List<Event__c>) Records){
+                if( String.isEmpty(record.URL__c) ){
+                    Event__c e = record.clone(true);
+                    e.URL__c = settings.SiteURL__c + '/RegisterEvent?id=' + String.valueOf(e.Id);
+                    system.debug(e);
+                    uow.registerDirty(e);
+                }
+            }
+            uow.commitWork();
         }
     }
 

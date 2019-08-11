@@ -2,6 +2,6 @@
 
 **/.eslintrc.json
 
-*/.sfdx
+.sfdx/*
 
-*/profiles
+force-app/main/default/profiles/8

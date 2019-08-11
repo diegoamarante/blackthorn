@@ -91,4 +91,19 @@ public with sharing class TestEventsService {
         
         System.assertEquals(event.Id, record.Id);
     }
+
+    @IsTest
+    static void eventSetURL(){
+        FESettings__c settings = FESettings__c.getInstance();
+        settings.SiteURL__c = 'test.com';
+        insert settings;
+        
+        Test.startTest();
+            Event__c event = new Event__c(Name = 'Test');
+            insert event;
+        Test.stopTest();
+        
+        String url = 'test.com/RegisterEvent?id='+String.valueOf(event.Id);
+        System.assertEquals(url, [Select Id, Url__c FROM Event__c WHERE ID =: event.Id limit 1].URL__c);
+    }
 }

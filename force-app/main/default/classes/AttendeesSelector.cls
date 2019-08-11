@@ -14,9 +14,15 @@ public with sharing class AttendeesSelector extends fflib_SObjectSelector {
    public List<Schema.SObjectField> getSObjectFieldList(){
       return new List<Schema.SObjectField> {
          Attendee__c.Id,
-         Attendee__c.Name
+         Attendee__c.Name,
+         Attendee__c.Birthday__c,
+         Attendee__c.Email__c
       };
    }
+
+    public List<Attendee__c> selectById(Set<Id> idSet){
+        return (List<Attendee__c>) selectSObjectsById(idSet);
+    }
    
     public List<Attendee__c> selectByEmail(Set<String> emails) {
         String query = String.format(
