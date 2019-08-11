@@ -48,7 +48,7 @@
 
         var registerAttendee = component.get('c.registerAttendee');
         registerAttendee.setParams({ 
-            recordId : component.get('v.eventId'),
+            eventId : component.get('v.eventId'),
             attendee : attendee
         });
 
