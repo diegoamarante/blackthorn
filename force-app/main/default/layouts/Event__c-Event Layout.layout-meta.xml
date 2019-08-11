@@ -30,6 +30,10 @@
                 <behavior>Edit</behavior>
                 <field>Image__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Url__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
