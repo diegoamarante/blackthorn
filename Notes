@@ -10,7 +10,7 @@ devhub
 negro@developer.com
 diego123
 
-sfdx force:user:permset:assign --permsetname BlackthornAdmin --targetusername black
+sfdx force:user:permset:assign --permsetname BlackthornAdmin --targetusername test
 
 sfdx force:data:tree:import -f data/BTTrial__Attendee__c.json,data/BTTrial__Event__c.json 
 
@@ -24,3 +24,16 @@ Modelo de Datos
 
 Post install
     Custom setting con site url
+
+
+    sfdx force:package1:version:list --packageid 0333i00000097te
+
+
+sfdx force:source:convert --outputdir ../BTTrial --packagename BTTrial
+
+sfdx force:mdapi:deploy --deploydir ../BTTrial --targetusername BTtrial
+
+sfdx force:package1:version:create -u BTtrial --packageid 0333i00000097te --name "Spring 19"  --version "1.1" 
+sfdx force:package1:version:create -u BTtrial --packageid 0333i00000097te --name "Spring 19"  --version "1.0" --managedreleased
+
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t3i000001M2Dy
